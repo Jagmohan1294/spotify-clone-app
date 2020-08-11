@@ -9,7 +9,7 @@ import { useStateValue } from "./StateProvider";
 function Sidebar() {
   const [{ playlists }, dispatch] = useStateValue();
   //console.log(playlists);
-
+  console.log('master')
   return (
     <div className="sidebar">
       <img
