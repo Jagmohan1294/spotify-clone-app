@@ -4,12 +4,11 @@ import SidebarOption from "./SidebarOption";
 import HomeIcon from "@material-ui/icons/Home";
 import SearchIcon from "@material-ui/icons/Search";
 import LibraryMusicIcon from "@material-ui/icons/LibraryMusic";
-import { getTokenFromResponse } from "./spotify";
 import { useStateValue } from "./StateProvider";
 
 function Sidebar() {
   const [{ playlists }, dispatch] = useStateValue();
-  console.log(playlists);
+  //console.log(playlists);
 
   return (
     <div className="sidebar">
